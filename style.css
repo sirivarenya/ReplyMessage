@@ -174,3 +174,136 @@ p{
   cursor: pointer;
   position: absolute;
 }
+
+.sidebar {
+  flex: 5.17;
+}
+.sidebar-chat {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 12px;
+  width: 100%;
+}
+.sidebar-chats {
+  height: 100px;
+  width: 450px;
+  position: absolute;
+  top: 125px; 
+  left: 200px; 
+
+}
+.chat-avatar {
+  position: relative;
+  flex: 1;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.chat-info {
+  flex: 10;
+  margin-left: 15px;
+}
+
+.chat-info p {
+  font-size: 13px;
+  line-height: 20px;
+  color: gray;
+}
+
+.time p {
+  flex: 1;
+  font-size: 13px;
+  white-space: nowrap;
+  margin-top: -16px;
+  color: gray;
+}
+.message-content {
+  height: calc(100vh - 120px);
+  background-image: url(background.png);
+  background-position: center;
+}
+
+.message-content {
+  flex: 1;
+  padding: 20px 80px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 125px; 
+  right: 30px;
+}
+
+.chat-message {
+  font-size: 14px;
+  padding: 8px 10px;
+  width: fit-content;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.chat-sent {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chat-timestamp {
+  margin-left: 10px;
+  font-size: 10px;
+  color: gray;
+}
+.message-footer {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 10px; 
+  right: 30px;
+}
+
+.message-footer img {
+  width: 115px;
+  height: 22px;
+  flex: 1;
+  opacity: 0.4;
+}
+
+.message-footer input {
+  flex: 20;
+  margin: 5px 10px;
+  padding: 12px 15px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.message-container {
+  flex: 12;
+}
+
+.chat-title {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 80px; 
+  right: 500px;
+
+}
+.chat-header-right img {
+  width: 20px;
+  height: 20px;
+  margin: 5px 13px;
+  opacity: 0.4;
+}
+.message-header-content {
+  margin-left: 15px;
+}
+
+.message-header-content p {
+  font-size: 13px;
+  color: grey;
+}
