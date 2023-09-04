@@ -154,3 +154,11 @@ header {
 #fr-name{
     font-size: 15px;
 }
+.time b{
+    align-items: center;
+    background: red;
+    color: #ffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
