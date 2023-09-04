@@ -115,11 +115,12 @@ header {
 }
 
 #friendSearch {
-    width: 100%;
+    width: 80%;
     height: 2rem;
-    border-radius: 0.3rem;
     border: 1px rgba(128, 128, 128, 0.4) solid;
-    padding-left: 0.5rem;
+    position: absolute;
+    left: 70px; 
+    bottom: 100px;
 }
 #friendList {
     list-style-type: none;
