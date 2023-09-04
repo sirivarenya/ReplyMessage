@@ -104,7 +104,7 @@ p{
 .time p {
   flex: 1;
   font-size: 13px;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   margin-top: -16px;
   color: gray;
 }
