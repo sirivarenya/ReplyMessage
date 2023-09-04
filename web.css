@@ -108,8 +108,8 @@ header {
     /* margin-left:auto; */
     grid-column-start: 3;
     position: absolute;
-    top: 70px; /* Adjust the top position as needed */
-    left: 170px; /* Adjust the left position as needed */
+    top: 70px; 
+    left: 150px; 
     width: 150px;
     height: 100px;
 }
@@ -119,8 +119,8 @@ header {
     height: 2rem;
     border: 1px rgba(128, 128, 128, 0.4) solid;
     position: absolute;
-    left: 70px; 
-    bottom: 100px;
+    left: 25px; 
+    bottom: 105px;
 }
 #friendList {
     list-style-type: none;
