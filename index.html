@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remember to add a title here -->
+    <title>Web Page Design</title>
+    <!-- linking css sheet -->
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- linking awesome font script for icons -->
+    <script src="https://kit.fontawesome.com/d1bf1bacdb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="title" class="headerItem">
+                <img src="chat.png" alt="msg" id="titleImage">
+                <span id="titleText">Meetmax</span>
+            </div>
+            <div id="headerMid" class="headerItem">
+                <input type="text" id="headerSearch" placeholder="&#128269; Search for something here..."></input>
+            </div>
+            <div id="userSection" class="headerItem">
+                <span id="userText">Saleh Ahmed</span>
+                <img src="cheesyblanket.png" alt="userPic" id="userImage">
+            </div>
+        </header>
+
+        <div id="mainContent">
+          <div id="menu">
+              <ul id="menuList">
+                  <a href="#">
+                      <li> <i class="fa-solid fa-border-all "></i> Feed</li>
+                  </a>
+                  <a href="#">
+                      <li> <i class="fa-solid fa-user-group spacing"></i> My Community</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-message spacing"></i> Messages</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-bell spacing"></i> Notification</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-globe spacing"></i> Explore</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-user spacing"></i> Profile</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-gear spacing"></i> Settings</li>
+                  </a>
+                  <a href="#">
+                      <li><i class="fa-solid fa-right-from-bracket spacing"></i> Logout</li>
+                  </a>
+              </ul>
+            </div>
+
+            <div id="friendSection">
+              <input type="text" placeholder="&#128269; Search friends" id="friendSearch">
+              <h3 id="friendHeading">Friends</h3>
+              <ul id="friendList">
+                  <a href="#">
+                      <li>
+                          <img src="cheese.png" alt="cheeseFriend" id="fr-img">
+                          <span id="fr-name">Jagrit Pratap Bill</span>
+                      </li>
+                  </a>
+                  <a href="#">
+                      <li>
+                          <img src="cheese.png" alt="cheeseFriend" id="fr-img">
+                          <span id="fr-name">Tamara Kamil</span>
+                      </li>
+                  </a>
+                  <a href="#">
+                      <li>
+                          <img src="cheese.png" alt="cheeseFriend" id="fr-name">
+                          <span id="fr-name">Patrik Nixon</span>
+                      </li>
+                  </a>
+                  <a href="#">
+                      <li>
+                          <img src="cheese.png" alt="cheeseFriend" id="fr-img">
+                          <span id="fr-name">Sam Boerger</span>
+                      </li>
+                  </a>
+              </ul>
+            </div>
+        </div>
+</body>
+</html>
