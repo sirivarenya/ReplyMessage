@@ -215,3 +215,36 @@ p{
   top: 100px; 
   right: 80px;
 }
+ion-icon{
+  font-size: 25px;
+}
+.video{
+  position: absolute;
+  top: 100px; 
+  right: 115px;
+}
+.info-circle{
+  position: absolute;
+  top: 100px; 
+  right: 80px;
+}
+.call{
+  position: absolute;
+  top: 100px; 
+  right: 150px;
+}
+.current{
+  background-color: antiquewhite;
+  height:20px;
+  width: 130px;
+  border-radius: 10%;
+}
+.avatar{
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  height: 35px;
+  width: 35px;
+  background-color: yellow;
+  border-radius: 50%;
+}
