@@ -1,24 +1,5 @@
 @import "web.css";
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.info{
-  display: flex;
-  margin-top: 20px;
-  margin-left: 23px;
-}
-
-
-
-#icon{
-  width: 17px;
-  height: 17px;
-}
-
-
 .heading{
   margin: 14px;
   margin-left: 23px;
@@ -50,19 +31,6 @@ p{
   justify-content: center;
   padding: 10px;
 }
-
-
-.send{
-  background: rgba(80, 123, 241, 0.123);
-  border: none;
-  border-radius: 5px;
-  width: 35px;
-  height: 35px;
-  padding: 2px;
-  cursor: pointer;
-  position: absolute;
-}
-
 .sidebar {
   flex: 5.17;
 }
@@ -99,7 +67,6 @@ p{
   line-height: 20px;
   color: gray;
 }
-
 .time p {
   flex: 1;
   font-size: 13px;
@@ -122,7 +89,6 @@ p{
   bottom: 100px; 
   right: 30px;
 }
-
 .chat-message {
   font-size: 14px;
   padding: 8px 10px;
@@ -131,12 +97,10 @@ p{
   background-color: white;
   margin-bottom: 30px;
 }
-
 .chat-sent {
   margin-left: auto;
   background-color: #dcf8c6;
 }
-
 .chat-timestamp {
   margin-left: 10px;
   font-size: 10px;
@@ -155,8 +119,6 @@ p{
   bottom: 100px; 
   right: 30px;
 }
-
-
 .message-footer input {
   flex: 20;
   margin: 5px 10px;
@@ -166,28 +128,23 @@ p{
   border-radius: 20px;
   font-size: 15px;
 }
-
 .message-container {
   flex: 12;
 }
-
 .chat-title {
   display: flex;
   align-items: center;
   position: absolute;
   bottom: 540px; 
   right: 450px;
-
 }
 .message-header-content {
   margin-left: 15px;
   padding: 1px;
 }
-
 .message-header-content p {
   font-size: 13px;
   color: grey;
-
 }
 ion-icon{
   font-size: 25px;
@@ -208,10 +165,16 @@ ion-icon{
   right: 150px;
 }
 .current{
-  background-color: antiquewhite;
-  height:20px;
-  width: 130px;
-  border-radius: 10%;
+  background-color: #E99FF1;
+  height:22px;
+  width: 145px;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-top: 1%;
+  position: absolute;
+  border-radius: 15px;
+  top: 135px; 
+  left: 10px;
 }
 .avatar{
   position: relative;
@@ -238,7 +201,7 @@ ion-icon{
   position: absolute;
   top: 100px; 
   z-index: -1;
-  border-top-right-radius: 5%;
+  border-top-right-radius: 15px;
 }
 .box2{
   width:460px;
@@ -249,6 +212,8 @@ ion-icon{
   left: 200px;
   z-index: -1;
   overflow: scroll;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .box3{
   width:650px;
@@ -258,6 +223,8 @@ ion-icon{
   top: 100px; 
   right: 15px;
   z-index: -1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .chat-header-right{
   position: absolute;
