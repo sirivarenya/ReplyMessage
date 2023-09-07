@@ -76,18 +76,28 @@ p{
 }
 .message-container {
   height: 100px;
-  background-position: center;}
+  background-position: center;
+}
 
 .message-content {
   flex: 1;
   height: 70%;
   width: 600px;
-  /*border: 1px solid grey;*/
   padding: 20px 60px;
   overflow: scroll;
   position: absolute;
   bottom: 100px; 
-  right: 30px;
+  right: 50px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #EFE5F5;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #eee;
 }
 .chat-message {
   font-size: 14px;
@@ -110,14 +120,13 @@ p{
   background-color: #F0F0F0;
   display: flex;
   outline: grey;
-  border: none;
   align-items: center;
   padding: 5px 5px;
   height: 10px;
   width: 600px;
   position: absolute;
-  bottom: 100px; 
-  right: 30px;
+  bottom: 95px; 
+  right: 45px;
 }
 .message-footer input {
   flex: 20;
