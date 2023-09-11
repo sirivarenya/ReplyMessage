@@ -65,14 +65,19 @@ p{
 .chat-info p {
   font-size: 13px;
   line-height: 20px;
-  color: gray;
+  color: grey;
+}
+.chat-info h4{
+  color:#1A1110;
+  font-weight: normal;
 }
 .time p {
   flex: 1;
   font-size: 13px;
   /*white-space: nowrap;*/
-  margin-top: -16px;
+  margin-top: -15px;
   color: gray;
+  padding-bottom: 5px;
 }
 .message-container {
   height: 100px;
@@ -106,6 +111,7 @@ p{
   border-radius: 8px;
   background-color: white;
   margin-bottom: 30px;
+  color:black;
 }
 .chat-sent {
   margin-left: auto;
@@ -122,6 +128,7 @@ p{
   outline: grey;
   align-items: center;
   padding: 5px 5px;
+  padding-left: 10px;
   height: 10px;
   width: 600px;
   position: absolute;
@@ -133,7 +140,7 @@ p{
   margin: 5px 10px;
   padding: 12px 15px;
   outline: grey;
-  border: none;
+  border: gray;
   border-radius: 20px;
   font-size: 15px;
 }
@@ -174,16 +181,16 @@ ion-icon{
   right: 150px;
 }
 .current{
-  background-color: #E99FF1;
+  background-color: #B3B7F0;
   height:22px;
-  width: 145px;
+  width: 170px;
   padding-bottom: 1%;
   padding-left: 10%;
   padding-top: 1%;
   position: absolute;
-  border-radius: 15px;
-  top: 135px; 
-  left: 10px;
+  border-radius: 7px;
+  top: 115px; 
+  left: 9px;
 }
 .avatar{
   position: relative;
@@ -204,7 +211,7 @@ ion-icon{
   z-index: -1;
 }
 .box1{
-  width:170px;
+  width:190px;
   height:600px;
   background: whitesmoke;
   position: absolute;
@@ -218,7 +225,7 @@ ion-icon{
   background: whitesmoke;
   position: absolute;
   top: 100px; 
-  left: 200px;
+  left: 220px;
   z-index: -1;
   overflow: scroll;
   border-top-left-radius: 15px;
@@ -239,4 +246,7 @@ ion-icon{
   position: absolute;
   bottom: 680px; 
   right: 10px;
+}
+.send-outline{
+  padding-left: 20px;
 }
