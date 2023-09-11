@@ -92,7 +92,7 @@ header {
     border: 2px rgba(128, 128, 128, 0.4) solid;
     position: absolute;
     left: 25px; 
-    bottom: 130px;
+    bottom: 120px;
 
 }
 #fr-name{
@@ -104,5 +104,5 @@ header {
     flex: 1;
     border-radius: 20%;
     padding: 3%;
-    background-color: #f1807e;
+    background-color: #F38957;
 }
